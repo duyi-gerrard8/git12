@@ -22,7 +22,7 @@
 
 ####github
 1. git remote add xxx : 添加远程的仓库(名字xxx)
-2. git push xxx <branch>:代码提交到远程仓库xxx <分支>。
+2. git push xxx <branch>:代码提交到远程仓库xxx中的<分支>。
 
 
  
