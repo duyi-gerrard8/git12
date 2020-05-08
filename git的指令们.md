@@ -29,6 +29,8 @@
 5. dir : 查看分支内所有文件
 6. git rm -r --cached xxx : 删除远程仓库中的xxx文件或文件夹(执行完后要执行 commit提交和push更新 这两个命令才能生效)
 
+        -------------------------
+
 ####一个学习github的网站
 &lt;https://learngitbranching.js.org/?locale=zh_CN&gt;
 
