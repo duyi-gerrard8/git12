@@ -26,6 +26,9 @@
 3. git pull xxx 'branch' : 更新本地文件(获取服务器端最新版本文件)
 4. git clone ... : 复制下载某地址的项目
 
+5. dir : 查看分支内所有文件
+6. git rm -r --cached xxx : 删除远程仓库中的xxx文件或文件夹(执行完后要执行 commit提交和push更新 这两个命令才能生效)
+
 
  
 
