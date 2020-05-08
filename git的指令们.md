@@ -22,7 +22,8 @@
 
 ####github
 1. git remote add xxx : 添加远程的仓库(名字xxx)
-2. git push xxx <branch>:代码提交到远程仓库xxx中的<分支>。
+2. git push xxx 'branch':代码提交到远程仓库xxx中的<分支>。
+3. git pull xxx 'branch' : 更新本地文件(获取服务器端最新版本文件)
 
 
  
