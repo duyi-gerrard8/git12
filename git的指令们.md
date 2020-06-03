@@ -19,6 +19,7 @@
     
 14. git branch xxx : 创建新分支。
 15. git checkout -b xxx : 创建并切换分支。
+16. git merge <branch> : 无冲突合并。
 
 ####github
 1. git remote add xxx : 添加远程的仓库(名字xxx)
