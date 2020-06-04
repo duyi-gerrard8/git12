@@ -1,4 +1,4 @@
-###指令
+#指令
 1. git init :初始化
 2. git config --global user.name xxx : 设置全局用户名。
 3. git config --global user.email xxx : 设置全局用户邮箱。
@@ -21,7 +21,7 @@
 15. git checkout -b xxx : 创建并切换分支。
 16. git merge <branch> : 无冲突合并。
 
-###github
+#github
 1. git remote add xxx : 添加远程的仓库(名字xxx)
 2. git push xxx 'branch':代码提交到远程仓库xxx中的<分支>。
 3. git pull xxx 'branch' : 更新本地文件(获取服务器端最新版本文件)
