@@ -1,4 +1,4 @@
-#指令
+###指令
 1. git init :初始化
 2. git config --global user.name xxx : 设置全局用户名。
 3. git config --global user.email xxx : 设置全局用户邮箱。
@@ -21,7 +21,7 @@
 15. git checkout -b xxx : 创建并切换分支。
 16. git merge <branch> : 无冲突合并。
 
-#github
+###github
 1. git remote add xxx : 添加远程的仓库(名字xxx)
 2. git push xxx 'branch':代码提交到远程仓库xxx中的<分支>。
 3. git pull xxx 'branch' : 更新本地文件(获取服务器端最新版本文件)
@@ -32,11 +32,11 @@
 
 ####关联远程仓库
 1. 命令行中：ssh-keygen,会产生一个秘钥，若本次关联操作之前已有生成的秘钥，则可省略此步。
-- 在执行此步后，系统会在C盘本机用户文件夹内生成文件夹.ssh，内有文件id_rsa.pub，记录生成的秘钥。
+    - 在执行此步后，系统会在C盘本机用户文件夹内生成文件夹.ssh，内有文件id_rsa.pub，记录生成的秘钥。
 2. 打开GitHub中的settings设置，找到菜单：SSH and GPG keys选项，点击"New SSH key"新创建一个key，复制粘贴生成的key，添加。
 3. 回到远程仓库界面，复制ssh地址，命令行切换至master分支，输入命令：git remote add xxx，后面加上2步骤中复制的地址，就完了。
 
-        -------------------------
+       
 
 ####一个学习github的网站
 &lt;https://learngitbranching.js.org/?locale=zh_CN&gt;
