@@ -20,6 +20,9 @@
 14. git branch xxx : 创建新分支。
 15. git checkout -b xxx : 创建并切换分支。
 16. git merge <branch> : 无冲突合并。
+17. git checkout -- <file> : 撤销工作区修改
+18. git reset HEAD <file> : 撤销暂存区(缓存)文件，不覆盖工作区。
+19. git reset --hard HEAD^ : 回退到上一次commit的状态。
 
 ### github
 1. git remote add xxx : 添加远程的仓库(名字xxx)
